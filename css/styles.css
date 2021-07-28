@@ -156,6 +156,7 @@ h2 {
 
 ul#lista-beneficios {
     margin-top: 40px;
+    min-width: 370px;
 }
 
 ul#lista-beneficios li {
