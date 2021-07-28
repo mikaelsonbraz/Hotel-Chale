@@ -10,13 +10,18 @@ body {
     margin: 15px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #container {
-    background: #ede9cc;
+    background: #ede9cc url("../src/bg-container.png") top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
 }
 
+/*Início da área do topo*/
 #topo {
     position: relative;
     background: #dbcd87;
@@ -119,4 +124,78 @@ ul#navegacao li a:hover {
     height: 164px;
     float: right;
 }
+/*Fim da área do topo*/
 
+/*Início da área do menu principal*/
+h2 {
+    color: #7d7640;
+    font-size: 150%;
+}
+.conteudo {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.conteudo h2,
+.conteudo p {
+    padding: 10px 0;
+    text-align: justify;
+}
+
+#area-principal {
+    background: url("../src/bg-area-principal.png") top left repeat-x;
+    float: left;
+    width: 50%;
+}
+
+#area-lateral {
+    background: url("../src/bg-area-lateral.png") top left repeat-x;
+    float: right;
+    width: 50%;
+}
+
+ul#lista-beneficios {
+    margin-top: 40px;
+}
+
+ul#lista-beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 8em;
+}
+
+ul#lista-beneficios li a img {
+    float: left;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+ul#lista-beneficios li a p {
+    font-size: 0.8em;
+    text-align: justify;
+    color: #000;
+}
+
+ul#lista-beneficios li a h3 {
+    font-size: 1.2em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url("../src/ornamento.png") right top no-repeat;
+}
+
+ul#lista-beneficios li:hover {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 1mm;
+}
+
+/*Fim do conteúdo principal*/
+
+/*Início do rodapé*/
+#rodape {
+    clear: both;
+    padding: 20px 0 18px 15px;
+    line-height: 1.5em;
+    background: #fff url("../src/bg-rodape.png") top repeat-x;
+    color: #7d7640;
+}
